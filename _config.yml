@@ -1,0 +1,12 @@
+title: "nO nAME"
+email: benjamin@aymonin.me
+baseurl: "" #The subpath of your site, e.g. /blog/
+url : "benjamin.aymonin.me"
+
+include: []
+encoding: "utf-8"
+permalink: /:title/
+
+timezone: Europe/Paris
+paginate: 5
+paginate_path: /page/:num
