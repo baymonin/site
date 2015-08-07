@@ -1,10 +1,26 @@
 @import "../font-awesome/css/font-awesome.min.css";
 
+@font-face {
+	font-family: "Moon Flower Bold";
+	src: url("../fonts/Moon_Flower/MoonFlowerBold.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "Moon Flower";
+	src: url("../fonts/Moon_Flower/MoonFlower.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "Wolf in the City";
+	src: url("../fonts/Wolf_City/Wolf in the City.ttf") format('truetype');
+}
+
 body {
 	-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	-webkit-font-smoothing: antialiased;
 	background-color: #F3F0EF;
+	font-family: "Wolf in the City";
 }
 
 header {
